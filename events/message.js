@@ -16,7 +16,7 @@ module.exports = (client, message) => {
      * Função que mostra os comandos que o bot pode executar (help)
      */
     if (message.content.toLowerCase() === "!help") {
-        message.reply(`\n!margot - diga meu nome \n !hi (user) - Diga oi para alguem`)
+        message.reply(`\n !margot - diga meu nome \n !hi (user) - Diga oi para alguem \n !meme`)
     }
 
     /**
